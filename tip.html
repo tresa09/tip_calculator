@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+<link href="style.css" rel="stylesheet"  />
+<head>
+ 
+  <title>TIP CALCULATOR</title>
+
+</head>
+
+<body>
+
+ <div id="box1"> 
+    <div id='same'><h5>Bill total</h5></div>
+    <div><input id='billtotal' onkeyup="calculateTotal()" type='text'></div>
+    <div id='same'><h5>Tip</h5></div>
+  <div>  <input id='tiptotal' onkeyup="calculateTotal()" type='text' placeholder="$0.00"></div>
+   <div class='box2'>
+     <h8>People</h8>
+     <h8>Total Per Person</h8>
+   </div>
+   <div  class='box2'>
+   <div id="span_e">
+       <button id="add"  >+</button>
+       <div id="display">1</div>
+        <button id="subtract" >-</button>
+   </div>
+     <div id='amount' >$0.00
+ </div>
+   </div>
+    </div>
+  
+</body>
+  <script type="text/javascript" src="script.js"></script>
+
+
+</html>

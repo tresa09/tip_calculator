@@ -1,0 +1,118 @@
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing:border-box;
+}
+body{
+  background-color: paleturquoise;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box1
+{
+  background-color: palevioletred;
+  width:700px;
+  height: 900px;
+  margin:0 auto;
+  border-radius: 3rem;
+  display:inline-block;
+ 
+}
+#same
+{
+  color:white;
+  font-style:sans-serif;
+  font-weight:italic;
+  margin-bottom:10px;
+  padding-left:40px;
+  padding-bottom:0;
+  font-size:25px;
+}
+#billtotal
+{
+  background-color:white;
+  border-radius:1.5rem;
+ width:600px;
+  height:20px;
+  margin:0px 30px;
+  border:white 1px;
+}
+#tiptotal
+{
+  background-color:white;
+  border-radius:1.5rem;
+ width:600px;
+  height:20px;
+  margin:0px 30px;
+  border:white 1px;
+}
+.box2
+{
+  display:flex;
+  justify-content:space-between;
+  color:white;
+  font-size:1.6rem;
+  margin-top:30px;
+  padding-left:30px;
+  padding-right:30px;
+}
+#inc
+{
+ 
+  width:20px;
+  height:10px;
+display:block;
+  
+}
+#display
+{
+  width:50px;
+  height:50px;
+  background-color:palevioletred;
+  border:white 50px;
+  text-align: center;
+  margin-top:10px;
+
+}
+#amount
+{
+  
+   background-color:palevioletred;
+   width:600px;
+  height:50px;
+margin:0 auto;
+  text-align:center;
+  font-size:1.6rem;
+}
+#span_e
+{
+  width:700px;
+  display:flex;
+  flex-direction:row;
+  align-content:space-around;
+  
+}
+#add
+{
+ width:50px;
+  height:50px;
+  border-radius:2rem;
+  border:none;
+  background-color:paleturquoise;
+  margin-right:10px;
+  color:blueviolet;
+  font-weight:10rem bold;
+}
+#subtract
+{
+  width:50px;
+  height:50px;
+  border-radius:2rem;
+  border:none;
+  background-color:paleturquoise;
+  margin-left:10px;
+   color:blueviolet;
+  font-weight:10rem bold;
+}
